@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Orbital Simulator 3D - Asteroids</title>
+</head>
+<body>
+    <div id="'title-panel" class="'ui-panel">
+        <h1>ORBITAL SIMULATOR 3D</h1>
+        <p class="subtitle">Approaches Visualizator</p>
+    </div>
+    
+    <div id="search-panel" class="ui-panel">
+        <label for="search-input" class="'subtitle">Search Asteroid</label>
+        <input type="text" id="search-input" placeholder="Example: 2019 XN3">
+        <ul id="results"></ul>
+    </div>
+
+    <div id="canvas-container"></div>
+
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+            }
+        }
+    </script>
+
+    <script type="module" src="./src/main.js"></script>
+</body>
+</html>

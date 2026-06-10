@@ -1,0 +1,87 @@
+body { 
+    margin: 0; 
+    overflow: hidden; 
+    background-color: #050505; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+#canvas-container { 
+    width: 100vw; 
+    height: 100vh; 
+}
+
+.ui-panel {
+    position: absolute; 
+    color: white; 
+    background: rgba(15, 15, 15, 0.85);
+    padding: 20px; 
+    border-radius: 8px; 
+    border: 1px solid #333;
+    backdrop-filter: blur(5px); 
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    z-index: 10;
+}
+
+#title-panel { 
+    top: 20px; 
+    left: 20px; 
+}
+
+#search-panel { 
+    top: 20px; 
+    right: 20px; 
+    width: 280px; 
+}
+
+h1 {
+    margin: 0 0 5px 0; 
+    font-size: 18px; 
+    letter-spacing: 1px; 
+}
+
+.subtitle { 
+    margin: 0; 
+    font-size: 11px; 
+    color: #888; 
+    text-transform: uppercase; 
+}
+
+input {
+    width: 100%; 
+    padding: 10px; 
+    background: #222; 
+    border: 1px solid #444;
+    color: white; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 10px;
+}
+
+input:focus { 
+    border-color: #00a8ff; 
+    outline: none; 
+}
+
+#results {
+    max-height: 200px; 
+    overflow-y: auto; 
+    margin-top: 5px; 
+    list-style: none; 
+    padding: 0; 
+    font-size: 13px; 
+    display: none;
+    background: #111; 
+    border: 1px solid #333; 
+    border-radius: 4px;
+}
+
+#results li { 
+    padding: 8px; 
+    cursor: pointer; 
+    border-bottom: 1px solid #222; 
+}
+
+#results li:hover { 
+    background: #00a8ff; 
+    color: black; 
+}
