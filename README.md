@@ -18,7 +18,7 @@ The project extracts close-approach metrics such as minimum approach distance, r
 This repository contains:
 
 * `asteroid_close_approaches_2015_2035.csv` — Cleaned NEO close approach dataset.
-* `asteroids_data.json` — Processed asteroid data in JSON format.
+* `asteroids.json` — Processed asteroid data in JSON format.
 * `notebook-three.ipynb` — Exploratory analysis, data transformation, and interactive visualization workflow.
 * `requirements.txt` — Required Python packages for the project.
 
